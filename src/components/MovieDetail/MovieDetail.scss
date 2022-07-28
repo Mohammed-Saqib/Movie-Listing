@@ -1,0 +1,50 @@
+@import '../../common/colors.scss';
+
+.movie-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    font-weight: 400;
+    width: 100%;
+    overflow: hidden;
+}
+
+.movie-rating{
+    padding-left: 3px;
+    margin-top: 20px;
+    display: flex;
+
+    span{
+        margin-right: 10px; color: $font-secondary;
+
+        .fas{
+            margin: 0 5px; 
+        }
+    }
+}
+
+.movie-plot{
+    margin:10px 10px 10px 0; text-align: justify; 
+    font-weight: 400; font-size: 18px;
+}
+
+.movie-info div{
+    margin: 10px 0px; font-weight: 400; font-size: 22px;
+    color: $font-secondary;
+}
+
+.movie-info div span:first-child{
+    display: inline-block; color: $font-primary;
+    width:100px; padding:10px 0; margin-right: 25px;
+}
+
+.section-right{
+    width:350px; margin: 0px 30px; height: 450px;
+}
+.section-right  img{
+    width:350px; height: 100%;
+}
+.fa-star{color: #ff9e00;}
+.fa-thumbs-up{color: #fafafa;}
+.fa-film{color: rgb(191, 213, 214);}
+.fa-calendar{color: peachpuff;}
